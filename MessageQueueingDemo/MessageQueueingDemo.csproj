@@ -6,9 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="EasyNetQ" Version="3.4.0-alpha0020" />
+    <PackageReference Include="EasyNetQ" Version="3.3.6" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
     <PackageReference Include="RabbitMQ.Client" Version="5.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MessageQueueingDemo.Messages\MessageQueueingDemo.Messages.csproj" />
   </ItemGroup>
 
 </Project>
